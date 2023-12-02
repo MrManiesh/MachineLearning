@@ -1,5 +1,4 @@
-# MachineLearning
-Machine Learning
+# Machine Learning
 
 I will post machine learning code from basic.
 
