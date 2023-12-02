@@ -2,6 +2,18 @@
 import numpy as np
 from collections import Counter
 
+
+# euclidean_distance: Calculates the Euclidean distance between two points using the formula for distance.
+
+# KNN class: Implements the K-Nearest Neighbors algorithm.
+
+# __init__: Initializes the class with a default value of k (number of neighbors) set to 3.
+
+# fit: Stores the training data and labels for future predictions.
+# predict: Generates predictions for an array of new data points.
+
+# _predict: Helper method to predict the label for a single data point using the KNN algorithm.
+
 # function to calculate the Euclidean distance between two points
 def euclidean_distance(x1, x2):
     # Calculate the square root of the sum of squared differences between coordinates
