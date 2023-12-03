@@ -32,3 +32,8 @@ predictions = clf.predict(X_test)
 
 # Print the predictions
 print(predictions)
+
+
+# Evaluate accuracy
+acc = np.sum(predictions == y_test) / len(y_test)
+print(acc)
